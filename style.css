@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation{
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    width: 120px;
+    height: 100px;
+    float: left;
+    padding: 20px;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    color:#030303f6;
+    display: flex;
+    justify-content: center;
+    margin: 5px 3px 5px 3px;
+    font-size: 30px;
+    padding: 15px 25px 15px 25px ;
+}
+.menu ul{
+    align-items: center;
+    list-style: none;
+   margin: auto;
+}
+.menu ul li{
+    display: inline;
+    
+}
+.menu ul li a{
+    line-height: 70px;
+    font-size: 15px;
+    color: #350826d8;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    list-style: none;
+}
+.menu ul li a:hover{
+    color: rosybrown;
+    list-style: none;
+
+}
+.searchbr{
+    float: left;
+    width: 25%;
+    padding-top: 30px;
+}
+.searchbr a{
+    text-decoration: none;
+    color: #030303f6;
+}
+.searchbr i{
+    font-size: 20px;
+    padding: 15px 15px 15px 15px ;
+}
+/*2nd section
+*/
+.coverpic{
+    width: 100%;
+}
+
+/*=============
+collection items
+===============*/
+.collectionitems{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;;
+}
+.collection-wrap{
+    width: 100%;
+}
+.collection-col{
+    width: 33.33%;
+    float: left;
+    padding: 10px 30px 10px 30px;
+}
+.collection-col img{
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+}
+.collection-wrap::after{
+    clear: both;
+    display: block;
+    content: "";
+    position: absolute;
+}
+.login-box{
+    margin-top: 100px;
+    width: 300px;
+    position: absolute;
+}
+/*=============
+wall sheveles items
+===============*/
+
+.wallsheveles{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;;
+}
+.shevele-wrap{
+    width: 100%;
+}
+
+.wallsheveles h1{
+    padding-top: 40px;
+    text-align: center;
+}
+.shevele-col{
+    padding-top: 80px;
+    width: 25%;
+    float: left;
+    text-decoration: none;
+    color: #030303f6;
+    display: inline;
+}
+.shevele-col a:hover{
+    
+}
+.shevele-col img {
+    width: 250px;
+    height: 300px;
+}
+.shevele-wrap::after{
+    clear: both;
+    display: block;
+    content: "";
+    position: absolute;
+}
+/*=============
+Lamps items
+===============*/
+
+.lamps{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;;
+}
+.lamps-wrap{
+    width: 100%;
+}
+
+.lamps h1{
+    padding-top: 40px;
+    text-align: center;
+}
+.lamps-col{
+    padding-top: 80px;
+    width: 25%;
+    float: left;
+    text-decoration: none;
+    color: #030303f6;
+    display: inline;
+}
+.lamps-col img {
+    width: 250px;
+    height: 300px;
+}
+.text-centre{
+    padding-top: 50px;
+    text-align: center;
+}
+.text-btn{
+    text-decoration: none;
+    border: 1 solid #ebe5e5;
+    width: auto;
+    background-color: #7796a8;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*=============
+Wall clocks items
+===============*/
+
+.wallclocks{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;;
+}
+.clocks-wrap{
+    width: 100%;
+}
+
+.wallclocks h1{
+    padding-top: 40px;
+    text-align: center;
+}
+.clocks-col{
+    padding-top: 80px;
+    width: 25%;
+    float: left;
+    text-decoration: none;
+    color: #030303f6;
+    display: inline;
+}
+.clocks-col img {
+    width: 250px;
+    height: 300px;
+}
+.text-centre{
+    padding-top: 50px;
+    text-align: center;
+}
+.text-btn{
+    text-decoration: none;
+    border: 1 solid #ebe5e5;
+    width: auto;
+    background-color: #7796a8;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*=============
+Wall clocks items
+===============*/
+.container-detail{
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+}
+
+.containercol1{
+    width: 45%;
+    align-items: center;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.containercol1 img{
+    width: 450px;
+    height: 450px;
+}
+.containercol2{
+    width: 45%;
+    color: #030303f6;
+    display: inline;
+    float: left;
+    text-align: center;
+}
+/*=============
+footer items
+===============*/
+
+footer{
+    height: 600px;
+    text-align: center;
+
+}
+footer h2{
+    padding-top: 200px;
+}
+.subscribe{
+    background-color: #7796a8;
+    padding: 10px 30px 10px 30px;
+}
+.subscribe1{
+    padding: 10px 30px 10px 30px;
+    width: 200px;
+}
+
+
+.section{
+    height: 500px;
+    background-color: black;
+}
+.section h1{
+    text-align: center;
+}
+
